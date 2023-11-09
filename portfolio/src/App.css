@@ -16,7 +16,7 @@
   --secondary-bg-color: rgb(51, 58, 71);
   --main-color: rgb(83, 232, 139);
   --title-color: rgb(102, 102, 102);
-  --text-color: rgb(128, 128, 128);
+  --text-color: rgb(207, 206, 206);
   --body-color: rgb(255, 255, 255);
   --container-color: rgb(237, 237, 237);
   --border-color: rgb(222, 222, 222);
@@ -35,4 +35,8 @@ html {
 body {
   background-color: var(--primary-bg-color);
   color: var(--text-color);
+}
+
+ul li {
+  list-style: none;
 }
