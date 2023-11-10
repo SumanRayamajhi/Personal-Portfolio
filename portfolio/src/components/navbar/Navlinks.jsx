@@ -2,20 +2,20 @@ import React from "react";
 
 const Navlinks = () => {
   return (
-    <ul>
-      <a href="#home">
-        <li className="nav__items">Home</li>
+    <div className="navlinks">
+      <a href="#home" className="nav__items nav__active">
+        Home
       </a>
-      <a href="#about">
-        <li className="nav__items ">About</li>
+      <a href="#about" className="nav__items">
+        About
       </a>
-      <a href="#project">
-        <li className="nav__items ">Project</li>
+      <a href="#project" className="nav__items">
+        Project
       </a>
-      <a href="#contact">
-        <li className="nav__items ">Contact</li>
+      <a href="#contact" className="nav__items">
+        Contact
       </a>
-    </ul>
+    </div>
   );
 };
 

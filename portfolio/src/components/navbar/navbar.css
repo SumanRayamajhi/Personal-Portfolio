@@ -19,16 +19,24 @@
   width: 3rem;
 }
 
-.navbar ul {
+.navlinks {
   display: flex;
 }
 
-ul .nav__items {
+.navlinks a {
   cursor: pointer;
   margin: 0 3.5rem;
   color: var(--text-color);
   font-size: 1.7rem;
   font-weight: 600;
+}
+
+.navlinks a:hover {
+  color: var(--main-color);
+}
+
+.nav__active {
+  color: var(--main-color) !important;
 }
 
 .navbar .nav__theme {
