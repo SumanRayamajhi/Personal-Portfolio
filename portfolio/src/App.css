@@ -101,3 +101,9 @@ button:hover::before {
   text-align: center;
   line-height: 60px;
 }
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}

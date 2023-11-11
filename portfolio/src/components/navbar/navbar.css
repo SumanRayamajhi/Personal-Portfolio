@@ -13,6 +13,10 @@
   z-index: 100;
 }
 
+.sticky {
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
 .nav__logo {
   object-fit: cover;
   height: 3rem;
@@ -31,11 +35,11 @@
   font-weight: 600;
 }
 
-.navlinks a:hover {
+.nav__links a:hover {
   color: var(--main-color);
 }
 
-.nav__active {
+.nav__links .nav__active {
   color: var(--main-color) !important;
 }
 
@@ -56,4 +60,114 @@
 
 .nav__theme-icon:hover {
   color: var(--text-white);
+}
+
+.desktopMenuItem {
+  color: #fff;
+  margin-left: 4rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.desktopMenuItem:hover {
+  color: var(--main-color);
+}
+
+.mobile__nav-links {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background: var(--secondary-bg-color);
+}
+
+.mobile__nav-links .Nav__links-mobile {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.mobile__nav-links .mobileMenuItem {
+  color: #fff;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nav-mobile-icon {
+  margin-right: 1rem;
+}
+
+.nav__links .active,
+.mobile__nav-links .active {
+  color: var(--main-color);
+}
+
+.mobile__menu-icon {
+  display: none;
+  object-fit: cover;
+  font-weight: 800;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  background-color: var(--secondary-bg-color);
+  padding: 0.7rem 0.6rem;
+}
+
+.mobile__nav-links {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile__nav-links,
+  .mobile__menu-icon {
+    display: flex;
+  }
+  .nav__links,
+  .nav__logo {
+    display: none;
+  }
+
+  .mobile__nav-links {
+    position: absolute;
+    inset-block: 0;
+    top: 5rem;
+
+    width: 100%;
+    padding: 60px 30px;
+    transition: all 0.9s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: 1100;
+    background-color: var(--primary-bg-color);
+    border-bottom: 1px solid var(--secondary-bg-color);
+  }
+}
+
+@media only screen and (max-width: 8px) {
+  .toogle__menu {
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .toggle__menu-icon {
+    display: block;
+    font-size: 3rem;
+  }
+
+  .navlinks-mobile {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--primary-bg-color);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+  }
 }
