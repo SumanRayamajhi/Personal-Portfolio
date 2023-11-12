@@ -9,6 +9,10 @@
 .home__container-side-line {
   position: absolute;
   left: -14%;
+  top: -2rem;
+}
+.colorLine {
+  height: 30rem;
 }
 
 .home__container-circle {
@@ -18,11 +22,10 @@
   background-color: var(--main-color);
 }
 .home__container-line {
-  margin-left: 5px;
+  margin-left: 4px;
   margin-top: -0.1rem;
   width: 0.3rem;
   height: 20rem;
-  background: var(--main-color);
   background: var(--linier-gradient);
 }
 
@@ -35,13 +38,12 @@
 
 h2.home__text {
   color: var(--text-white);
-  font-family: "poppins", sans-serif;
   font-size: 2.5rem;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0.6rem;
   margin: 0 auto;
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-shadow: var(--text-shadow);
   font-weight: 600;
   letter-spacing: normal;
   text-align: start;
@@ -58,7 +60,7 @@ h2.home__text span {
 
 h3.home__text {
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 500;
   line-height: 40px;
   color: var(--text-white);
   text-align: start;
@@ -76,7 +78,7 @@ h3.home__text {
 
   h3.home__text {
     font-size: 1.8rem;
-    font-weight: 200;
+
     line-height: 25px;
   }
 }

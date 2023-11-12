@@ -6,6 +6,7 @@ import Logo from "../../assets/images/logo3.png";
 import "./navbar.css";
 import Navlinks from "./Navlinks";
 import NavMobileLinks from "./NavMobileLinks";
+import Theme from "./theme/Theme";
 
 const Navbar = () => {
   window.addEventListener("scroll", function () {
@@ -43,9 +44,8 @@ const Navbar = () => {
         </div>
       ) : null}
 
-      <div className="nav__theme">
-        <BsSun className="nav__theme-icon" />
-        <FaCog className="nav__theme-icon" />
+      <div>
+        <Theme />
       </div>
     </nav>
   );

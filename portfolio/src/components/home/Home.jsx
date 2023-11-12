@@ -9,6 +9,7 @@ const Home = () => {
         <div className="home__container-side-line">
           <div className="home__container-circle" />
           <div className="home__container-line" />
+          {/*  <img src={Line2} alt="" className="colorLine" /> */}
         </div>
         <div className="home__meta ">
           <h2 className="home__text">
