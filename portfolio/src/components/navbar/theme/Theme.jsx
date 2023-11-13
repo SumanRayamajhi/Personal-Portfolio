@@ -30,18 +30,18 @@ const Theme = () => {
 
   return (
     <div>
-      <div className="dark_mode">
+      <div className="light_mode">
         <input
-          className="dark_mode_input"
+          className="light_mode_input"
           type="checkbox"
-          id="darkmode-toggle"
+          id="lightmode-toggle"
         />
         <label
-          className="dark_mode_label"
-          for="darkmode-toggle"
+          className="light_mode_label"
+          for="lightmode-toggle"
           onClick={toggleTheme}
         >
-          {theme === "dark-theme" ? <Sun /> : <Moon />}
+          {theme === "light-theme" ? <Moon /> : <Sun />}
         </label>
       </div>
     </div>
