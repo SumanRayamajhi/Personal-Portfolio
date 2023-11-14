@@ -75,6 +75,27 @@ section {
   width: 100vw;
 }
 
+.section__title {
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.section__title,
+.section__subtitle {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
 button {
   background-color: transparent;
   border: none;
