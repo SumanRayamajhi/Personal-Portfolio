@@ -1,5 +1,5 @@
 .light_mode {
-  margin-top: -20px;
+  margin-top: -10px;
   margin-left: 10px;
 }
 
@@ -10,23 +10,22 @@
   display: block;
   background: var(--primary-bg-color);
   border-radius: 200px;
-  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
+  box-shadow: inset 0px 5px 15px rgba(81, 80, 80, 0.4),
     inset 0px -5px 15px rgba(28, 27, 27, 0.4);
   cursor: pointer;
   transition: 0.3s;
   border: 1px solid var(--secondary-bg-color);
 }
+
 .light_mode_label:after {
   content: "";
   width: 25px;
   height: 25px;
   position: absolute;
-  top: 3px;
+  top: 2px;
   left: 3px;
-  /*  background: linear-gradient(180deg, #030202, #1d1202); */
   background: linear-gradient(180deg, #777, #3a3a3a);
   border-radius: 180px;
-  /* box-shadow: 0px 5px 10px rgba(141, 137, 137, 0.2); */
   transition: 0.3s;
 }
 .light_mode_input {
@@ -40,8 +39,8 @@
 .light_mode_input:checked + .light_mode_label:after {
   left: 62px;
   transform: translateX(-100%);
-  /*  background: linear-gradient(180deg, #a0a0a0, #9c9999); */
   background: linear-gradient(180deg, #fbf4eb, #d5cdc1);
+  background-color: green;
   color: var(--primary-bg-color) !important;
   border-radius: 180px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -53,22 +52,27 @@
 .light_mode_label svg {
   position: absolute;
   width: 20px;
-  top: 5px;
+  top: 4.5px;
   z-index: 100;
 }
+
 .light_mode_label svg.sun {
   left: 5px;
-  fill: #fff;
   transition: 0.3s;
+  fill: var(--main-color) !important;
 }
+
 .light_mode_label svg.moon {
   left: 40px;
-  fill: #7e7e7e;
+  fill: var(--main-color) !important;
   transition: 0.3s;
 }
-.light_mode_input:checked + .light_mode_label svg.sun {
+
+/* .light_mode_input:checked + .light_mode_label svg.sun {
   fill: #7e7e7e;
+  fill: blue;
 }
 .light_mode_input:checked + .light_mode_label svg.moon {
   fill: var(--text-color);
-}
+  fill: greenyellow;
+} */

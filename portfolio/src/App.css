@@ -15,7 +15,7 @@
   --primary-bg-color: rgb(31, 36, 46);
   --secondary-bg-color: rgb(51, 58, 71);
   --main-color: rgb(39, 209, 104);
-  --title-color: rgb(102, 102, 102);
+  --title-color: rgb(52, 52, 52);
   --text-color: rgb(207, 206, 206);
   --body-color: rgb(255, 255, 255);
   --container-color: rgb(237, 237, 237);
@@ -40,14 +40,14 @@
   --primary-bg-color: rgb(238, 233, 233);
   --secondary-bg-color: rgb(201, 203, 206);
   --title-color: rgb(34, 32, 32);
-  --text-color: rgb(83, 83, 83);
+  --text-color: rgb(62, 62, 62);
   --text-white: rgb(48, 47, 47);
   --text-shadow: 0 0 20px rgba(119, 118, 118, 0.5);
   --border-bottom: 0.1rem solid rgba(252, 251, 251, 0.2);
   --main-color: rgb(49, 131, 80);
   --linier-gradient: linear-gradient(
     180deg,
-    rgba(49, 131, 80, 1) 24%,
+    var(--main-color) 24%,
     rgba(255, 255, 255, 0) 100%
   );
 }
@@ -115,7 +115,7 @@ button {
 }
 
 button:hover {
-  color: var(--text-hover-color);
+  color: var(--primary-bg-color);
 }
 
 button:before {
@@ -137,9 +137,10 @@ button:hover::before {
   position: absolute;
   inset-block: -2px;
   right: 0;
-  width: 55px;
+  width: 50px;
+  height: 110%;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
   line-height: 60px;
 }

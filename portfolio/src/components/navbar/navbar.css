@@ -99,6 +99,7 @@
   border-radius: 0.3rem;
   background-color: var(--secondary-bg-color);
   padding: 0.7rem 0.6rem;
+  color: var(--main-color);
 }
 
 .mobile__nav-links {

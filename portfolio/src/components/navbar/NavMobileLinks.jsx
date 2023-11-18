@@ -22,7 +22,7 @@ const NavMobileLinks = (props) => {
         activeClass="active"
         to="about"
         spy={true}
-        offset={-100}
+        offset={100}
         duration={500}
         className="mobileMenuItem"
         onClick={() => props.closeMobileMenu()}
