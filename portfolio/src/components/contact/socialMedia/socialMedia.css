@@ -1,0 +1,91 @@
+.socialMedia__Wrapper {
+  inset-block: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 5;
+}
+
+.socialMedia__Button {
+  position: relative;
+  margin-block: 1.5rem;
+  padding: 0;
+  border-bottom: none;
+  background-color: var(--main-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: 40rem;
+  cursor: pointer;
+}
+
+.socialMedia__Button h3 {
+  display: none;
+}
+
+.socialMedia__Button .icon {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 1.6rem;
+  left: 1.6rem;
+  margin-inline: auto;
+  font-size: 2rem;
+}
+
+.socialMedia__Button span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--primary-bg-color);
+  height: 100%;
+  min-width: 100%;
+  line-height: 50px;
+  padding-inline: 30px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  color: var(--text-color);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.socialMedia__Button:hover span {
+  right: 27px;
+  color: var(--text-color);
+  opacity: 1;
+  visibility: visible;
+  border-radius: 30px 0 0 30px;
+  background-color: var(--main-color);
+}
+
+.socialMedia__Button:hover span a {
+  color: var(--text-color);
+  display: inline-block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .socialMedia__Button,
+  .socialMedia__Button .icon,
+  .socialMedia__Button span,
+  .socialMedia__Button:hover span,
+  .socialMedia__Button:hover span a {
+    all: unset;
+  }
+
+  .socialMedia__Button {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .socialMedia__Button .icon {
+    text-decoration: none;
+    color: orange !important;
+    font-size: 4rem;
+  }
+
+  .socialMedia__Button h3 {
+    display: block;
+  }
+}
