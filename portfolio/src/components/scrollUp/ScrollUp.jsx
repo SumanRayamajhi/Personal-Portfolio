@@ -1,0 +1,19 @@
+import React from "react";
+import { FaArrowUp } from "react-icons/fa";
+import "./scrollUp.css";
+
+const ScrollUp = () => {
+  window.addEventListener("scroll", function () {
+    const scrollUp = this.document.querySelector(".scrollup");
+    if (this.scrollY >= 560) scrollUp.classList.add("show-scroll");
+    else scrollUp.classList.remove("show-scroll");
+  });
+  return (
+    <a href="#" className="scrollup">
+      {/*  <FaArrowUp className="scrollup__icon" /> */}
+      <div className="scrollup-icon">&#8593;</div>
+    </a>
+  );
+};
+
+export default ScrollUp;
