@@ -16,7 +16,7 @@
   --secondary-bg-color: rgb(51, 58, 71);
   --main-color: rgb(39, 209, 104);
   --title-color: rgb(52, 52, 52);
-  --text-color: rgb(207, 206, 206);
+  --text-color: rgb(224, 224, 224);
   --body-color: rgb(255, 255, 255);
   --container-color: rgb(237, 237, 237);
   --border-color: rgb(222, 222, 222);
@@ -41,7 +41,7 @@
   --secondary-bg-color: rgb(201, 203, 206);
   --title-color: rgb(34, 32, 32);
   --text-color: rgb(62, 62, 62);
-  --text-white: rgb(48, 47, 47);
+  --text-white: rgb(30, 30, 30);
   --text-shadow: 0 0 20px rgba(119, 118, 118, 0.5);
   --border-bottom: 0.1rem solid rgba(252, 251, 251, 0.2);
   --main-color: rgb(49, 131, 80);
