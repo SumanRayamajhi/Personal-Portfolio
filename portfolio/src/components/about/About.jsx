@@ -3,6 +3,7 @@ import ProfileImg from "../../assets/images/profile.png";
 import CV from "../../assets/file/Suman-Rayamajhi-CV.pdf";
 import { FaRegFilePdf, FaFileDownload } from "react-icons/fa";
 import "./about.css";
+import Skills from "./Skills";
 
 const About = () => {
   return (
@@ -22,6 +23,8 @@ const About = () => {
             and grow skills through hard work and motivational aspiration in new
             dynamic and progressive companies.
           </p>
+
+          <Skills />
 
           <a href={CV} download={"Suman-Rayamajhi-CV.pdf"}>
             <button>
