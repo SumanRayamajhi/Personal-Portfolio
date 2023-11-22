@@ -5,6 +5,6 @@
 - Burger menu to the small  screen.
 - Active link for both lager screen and small screen.
 - Complete functional send email section using emailjs.
-- Back to Top button.
+- Back to Top button with animated arrow.
 - Toggle Theme to change the background-colors and colors.
 - Smooth Scrolling for all the links.
