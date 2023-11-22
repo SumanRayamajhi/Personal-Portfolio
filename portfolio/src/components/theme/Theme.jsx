@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { BsSun, BsMoon } from "react-icons/bs";
-import { ReactComponent as Sun } from "../../../assets/images/Sun.svg";
-import { ReactComponent as Moon } from "../../../assets/images/Moon.svg";
+import { ReactComponent as Sun } from "../../assets/images/Sun.svg";
+import { ReactComponent as Moon } from "../../assets/images/Moon.svg";
 import "./theme.css";
 
 const getStorageTheme = () => {
