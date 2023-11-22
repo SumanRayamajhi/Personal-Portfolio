@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../../assets/images/logo3.png";
 import Theme from "../theme/Theme";
-import { navLinks } from "../../Data.jsx";
+import { navLinks } from "../../PersonalData.jsx";
 import { Link } from "react-scroll";
 import "./navbar.css";
 
