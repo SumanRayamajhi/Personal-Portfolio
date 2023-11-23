@@ -85,7 +85,7 @@
 
   .socialMedia__Button .socialMedia__Button-icon {
     font-size: 4rem;
-    color: var(--main-color) !important;
+    fill: var(--text-color);
   }
 
   .socialMedia__Button span,

@@ -1,0 +1,78 @@
+.color__switcher {
+  position: fixed;
+  left: 0;
+  bottom: 12%;
+  z-index: 10;
+  background-color: var(--text-color);
+  width: 17rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 4px rgb(0, 0, 80);
+  z-index: 10;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.show-color__switcher {
+  transform: translateX(0);
+}
+
+.color__switcher,
+.color__switcher-toggler {
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+
+.color__switcher-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0rem;
+  row-gap: 0.2rem;
+}
+
+.color__switcher-title,
+.color__switcher-toggler,
+.color__switcher-close {
+  color: var(--primary-bg-color);
+}
+
+.color__switcher-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--title-color);
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.colorTheme-img {
+  height: 2.6rem;
+  cursor: pointer;
+}
+
+.color__switcher-toggler {
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  left: 100%;
+  top: 10%;
+  color: var(--text-color);
+  font-size: 2.3rem;
+  background-color: var(--secondary-bg-color);
+  padding: 0.6rem 0.8rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 2px rgba(108, 106, 106, 0.2);
+  transition: all 0.3s ease;
+}
+
+.show-color__switcher .color__switcher-toggler {
+  left: -100%;
+}
+
+.color__switcher-close {
+  position: absolute;
+  cursor: pointer;
+  font-size: 2.5rem;
+  bottom: 64%;
+  right: 0.6rem;
+}

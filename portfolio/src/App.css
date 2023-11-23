@@ -14,17 +14,17 @@
 :root {
   --primary-bg-color: rgb(31, 36, 46);
   --secondary-bg-color: rgb(51, 58, 71);
-  --main-color: rgb(39, 209, 104);
+  --main-color: rgb(48, 178, 98);
   --title-color: rgb(52, 52, 52);
   --text-color: rgb(224, 224, 224);
   --body-color: rgb(255, 255, 255);
-  --container-color: rgb(237, 237, 237);
+  --icon-color: rgb(208, 208, 208);
   --border-color: rgb(222, 222, 222);
   --text-white: hsl(0, 0%, 100%);
   --text-hover-color: rgb(99, 94, 94);
   --linier-gradient: linear-gradient(
     180deg,
-    rgba(83, 232, 139, 1) 24%,
+    var(--main-color),
     rgba(255, 255, 255, 0) 100%
   );
   --border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
@@ -32,8 +32,6 @@
   --text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 
   --primary-font: "Poppins", sans-serif;
-
-  color: rgb(196, 198, 199);
 }
 
 .light-theme {
@@ -44,7 +42,6 @@
   --text-white: rgb(30, 30, 30);
   --text-shadow: 0 0 20px rgba(119, 118, 118, 0.5);
   --border-bottom: 0.1rem solid rgba(252, 251, 251, 0.2);
-  --main-color: rgb(49, 131, 80);
   --linier-gradient: linear-gradient(
     180deg,
     var(--main-color) 24%,

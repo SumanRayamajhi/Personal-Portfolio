@@ -6,6 +6,14 @@ import ToDoList from "./assets/images/to-do-list.jpg";
 import Giphy from "./assets/images/giphy-app.jpg";
 import Calculator from "./assets/images/calculator.jpg";
 import { FaLink, FaCode } from "react-icons/fa6";
+import Theme1 from "./assets/images/theme-1.png";
+import Theme2 from "./assets/images/theme-2.png";
+import Theme3 from "./assets/images/theme-3.png";
+import Theme4 from "./assets/images/theme-4.png";
+import Theme5 from "./assets/images/theme-5.png";
+import Theme6 from "./assets/images/theme-6.png";
+import Theme7 from "./assets/images/theme-7.png";
+import Theme8 from "./assets/images/theme-8.png";
 
 export const navLinks = [
   {
@@ -88,5 +96,48 @@ export const projects = [
     codeLinkIcon: <FaCode />,
     deployedLink: "https://giphy-api-ba696.web.app",
     liveLinkIcon: <FaLink />,
+  },
+];
+
+export const colorThemes = [
+  {
+    id: 1,
+    img: Theme1,
+    color: "rgb(106, 74, 231)",
+  },
+  {
+    id: 2,
+    img: Theme2,
+    color: "rgb(188, 52, 120)",
+  },
+  {
+    id: 3,
+    img: Theme3,
+    color: "rgb(113, 64, 181)",
+  },
+  {
+    id: 4,
+    img: Theme4,
+    color: "rgb(49, 131, 80)",
+  },
+  {
+    id: 5,
+    img: Theme5,
+    color: "rgb(48, 178, 98)",
+  },
+  {
+    id: 6,
+    img: Theme6,
+    color: "rgb(204, 140, 31)",
+  },
+  {
+    id: 7,
+    img: Theme7,
+    color: "rgb(199, 43, 43)",
+  },
+  {
+    id: 8,
+    img: Theme8,
+    color: "rgb(54, 111, 176)",
   },
 ];
