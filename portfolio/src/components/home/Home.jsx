@@ -20,7 +20,8 @@ const Home = () => {
             activeClass="active"
             to="about"
             spy={true}
-            offset={200}
+            hashSpy={true}
+            offset={-95}
             duration={100}
           >
             <button className="home__button">
