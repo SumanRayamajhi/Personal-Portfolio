@@ -25,26 +25,6 @@
   column-gap: 1.25rem;
 }
 
-.box {
-  position: relative;
-  width: 4rem;
-  height: 4rem;
-  background: repeating-conic-gradient(
-    from 45deg,
-    var(--main-color) 0%,
-    var(--main-color) 5%,
-    transparent 5%,
-    transparent 40%,
-    var(--main-color) 50%
-  );
-  animation: rotating 2s linear infinite;
-  border-radius: 0.5rem;
-  filter: drop-shadow(0 15px 50px #000);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .footer__copy {
   display: block;
   margin-top: 1rem;
