@@ -58,7 +58,7 @@ export const projects = [
     image: PunkBeer,
     gitHubLink: "https://github.com/SumanRayamajhi/API-punk-beer",
     codeLinkIcon: <FaCode />,
-    deployedLink: "https://api-punk-beer.web.app",
+    deployedLink: "https://api-punk-beer-7a64c.web.app",
     liveLinkIcon: <FaLink />,
   },
   {
