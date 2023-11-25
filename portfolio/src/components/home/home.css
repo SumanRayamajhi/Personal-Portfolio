@@ -49,17 +49,6 @@
   z-index: -10;
 }
 
-.home__container-circle::after {
-  content: "";
-  position: absolute;
-  height: 1rem;
-  width: 1.7rem;
-  bottom: -11rem;
-  left: 1.2rem;
-  border-radius: 50%;
-  background-color: var(--main-color);
-}
-
 .home__container-line {
   position: absolute;
   margin-left: 4px;
@@ -68,6 +57,20 @@
   bottom: 0.5rem;
   background: var(--linier-gradient);
   z-index: 10;
+}
+
+.home__container-line::after {
+  content: "";
+  position: absolute;
+  height: 8rem;
+  width: 0.5rem;
+  bottom: -8rem;
+  left: 0rem;
+  background: linear-gradient(
+    180deg,
+    var(--main-color),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .home__meta {
