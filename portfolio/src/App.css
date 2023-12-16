@@ -23,9 +23,9 @@
   --text-white: hsl(0, 0%, 100%);
   --text-hover-color: rgb(99, 94, 94);
   --linier-gradient: linear-gradient(
-    360deg,
+    180deg,
     var(--main-color),
-    rgba(255, 255, 255, 0) 100%
+    var(--primary-bg-color) 100%
   );
   --border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
 

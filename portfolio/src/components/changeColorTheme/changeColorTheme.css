@@ -76,3 +76,9 @@
   bottom: 64%;
   right: 0.6rem;
 }
+
+@media only screen and (max-width: 762px) {
+  .color__switcher-toggler {
+    height: 3rem;
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { Link } from "react-scroll";
+import SideLine from "../../assets/images/trisul.svg";
 import "./home.css";
 
 const Home = () => {
@@ -8,8 +9,16 @@ const Home = () => {
     <section className="home" id="home">
       <div className="home__container">
         <div className="home__container-side-line">
-          <div className="home__container-circle" />
-          <div className="home__container-line" />
+          {/*   <div className="home__container-circle" />
+          <div className="home__container-top" />
+          <div className="home__container-line" /> */}
+          {/*  <img src={SideLine} alt="" className="side-img" /> */}
+          <div className="polygon-top" />
+          <div className="polygon-bottom" />
+          <div className="circle-first" />
+          <div className="rectangle" />
+          <div className="rectangle2" />
+          <div className="line" />
         </div>
         <div className="home__meta ">
           <h2 className="home__text">
