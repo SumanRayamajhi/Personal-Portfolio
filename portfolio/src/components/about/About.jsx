@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileImg from "../../assets/images/profile.png";
-import CV from "../../assets/file/SUMAN-RAYAMAJHI-CV.pdf";
-import { FaRegFilePdf, FaFileDownload } from "react-icons/fa";
+import CV from "../../assets/file/Suman-Rayamajhi-CV.pdf";
+import { FaFileDownload } from "react-icons/fa";
 import "./about.css";
 import Skills from "./Skills";
 
@@ -26,7 +26,7 @@ const About = () => {
 
           <Skills />
 
-          <a href={CV} download={"SUMAN-RAYAMAJHI-CV.pdf"}>
+          <a href={CV} download={"Suman-Rayamajhi-CV.pdf"}>
             <button>
               Download CV
               <FaFileDownload className="button__icon" />
