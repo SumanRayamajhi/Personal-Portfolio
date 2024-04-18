@@ -2,7 +2,7 @@
 
 - Web app using React JS.
 - Completely responsive according to the sizes of the screen.
-- Burger menu to the small  screen.
+- Burger menu to the small screen.
 - Active link for both lager screen and small screen.
 - Complete functional send email section using emailjs.
 - Back to Top button with animated arrow.
