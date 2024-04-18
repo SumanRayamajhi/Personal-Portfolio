@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowUp } from "react-icons/fa";
 import "./scrollUp.css";
 
 const ScrollUp = () => {
@@ -9,7 +8,7 @@ const ScrollUp = () => {
     else scrollUp.classList.remove("show-scroll");
   });
   return (
-    <a href="#" className="scrollup">
+    <a href="/" className="scrollup">
       {/*  <FaArrowUp className="scrollup__icon" /> */}
       <div className="scrollup-icon">&#8593;</div>
     </a>
