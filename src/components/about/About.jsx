@@ -26,7 +26,7 @@ const About = () => {
 
           <Skills />
 
-          <a href={CV} download={"SumanRayamajhi-CV.pdf"}>
+          <a href={CV} download={"Suman-Rayamajhi-CV.pdf"}>
             <button>
               Download CV
               <FaFileDownload className="button__icon" />
