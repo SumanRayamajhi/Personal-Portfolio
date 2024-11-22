@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.32645897.css",
-    "main.js": "/Personal-Portfolio/static/js/main.fdae5984.js",
+    "main.js": "/Personal-Portfolio/static/js/main.81c22453.js",
     "static/media/profile.png": "/Personal-Portfolio/static/media/profile.75413fbb4b7553870a4e.png",
-    "static/media/Suman-Rayamajhi-CV.pdf": "/Personal-Portfolio/static/media/Suman-Rayamajhi-CV.6c28e6135d7bd47a40f4.pdf",
+    "static/media/Suman-Rayamajhi-CV.pdf": "/Personal-Portfolio/static/media/Suman-Rayamajhi-CV.98ba6fbd0a0470a2514a.pdf",
     "static/media/giphy-app.jpg": "/Personal-Portfolio/static/media/giphy-app.a0d378b8841853f5dfb7.jpg",
     "static/media/logo3.png": "/Personal-Portfolio/static/media/logo3.3f78255bcfcc5115e3c2.png",
     "static/media/connect-four.jpg": "/Personal-Portfolio/static/media/connect-four.d27528784fd361cc987f.jpg",
@@ -16,10 +16,10 @@
     "static/media/nextjs.svg": "/Personal-Portfolio/static/media/nextjs.20eeca40e0a0d46a4a6e5169a01800fa.svg",
     "index.html": "/Personal-Portfolio/index.html",
     "main.32645897.css.map": "/Personal-Portfolio/static/css/main.32645897.css.map",
-    "main.fdae5984.js.map": "/Personal-Portfolio/static/js/main.fdae5984.js.map"
+    "main.81c22453.js.map": "/Personal-Portfolio/static/js/main.81c22453.js.map"
   },
   "entrypoints": [
     "static/css/main.32645897.css",
-    "static/js/main.fdae5984.js"
+    "static/js/main.81c22453.js"
   ]
 }
