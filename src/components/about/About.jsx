@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileImg from "../../assets/images/profile.png";
-import CV from "../../assets/file/Suman-Rayamajhi-CV.pdf";
+import CV from "../../assets/file/SumanRayamajhi-CV.pdf";
 import { FaFileDownload } from "react-icons/fa";
 import "./about.css";
 import Skills from "./Skills";
@@ -18,7 +18,6 @@ const About = () => {
 
         <div className="about__data">
           <p className="about__description">
-            An energetic and ambitious, web-developer with proven ability of a
             strong ethics and passion for web design, is excited to use talent
             and grow skills through hard work and motivational aspiration in new
             dynamic and progressive companies.
@@ -26,7 +25,7 @@ const About = () => {
 
           <Skills />
 
-          <a href={CV} download={"Suman-Rayamajhi-CV.pdf"}>
+          <a href={CV} download={"SumanRayamajhi-CV.pdf"}>
             <button>
               Download CV
               <FaFileDownload className="button__icon" />
